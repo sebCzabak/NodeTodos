@@ -61,20 +61,6 @@ The frontend will be available at `http://localhost:3000`.
 
 Ensure that the directory structure looks like this:
 
-my-app/
-├── backend/
-│ ├── index.js
-│ ├── package.json
-│ ├── routes/
-│ ├── models/
-│ └── ... (other backend files)
-├── frontend/
-│ ├── package.json
-│ ├── public/
-│ ├── src/
-│ └── ... (other frontend files)
-└── README.md
-
 ## Backend Overview
 
 The backend of this application is built using Node.js and Express. It connects to a MongoDB database to store user and task information.
